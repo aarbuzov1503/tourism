@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+.body {
+    font-family: 'Times New Roman', arial, sans-serif;
+    color: var(--black);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,39,153,1) 0%, rgba(193,107,175,1) 91%, rgba(230,41,159,1) 100%);
+}
+
 :root {
     --default: #FF9900;
     --hover: #FFB84D;
@@ -25,16 +35,6 @@
     overflow: hidden;
 }
 
-.body {
-    font-family: 'Times New Roman', arial, sans-serif;
-    color: var(--black);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 1440px;
-    height: 100%;
-    /* width: 3900px; */
-    background-image: url('../img/bg-3.jpg');
-}
 
 .container {
     padding: 0 50px;
